@@ -1,0 +1,166 @@
+body {
+    background-color: #ffa781;
+    min-width: none;
+    max-width: 100%;
+}
+
+/*Header starts here*/
+
+.header {
+    font-size: medium;
+    text-align: center;  
+    background-color: #5e001f;
+    min-width: none;
+    max-width: 100%;
+}
+
+.Logo {
+    width: 7%;
+}
+
+.navigation-Event-2-Page {
+    background-color: #00e1d9;
+    width: auto;
+    border: 10px solid #00e1d9;
+    padding: 10px;
+    display:grid;
+    grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav-home {
+    text-decoration: none;
+}
+
+.nav-Hotel-Branch {
+    text-decoration: none;
+}
+
+.nav-Adventures {
+    text-decoration: none;
+}
+
+.nav-Event-1-Page {
+    text-decoration: none;
+}
+
+.nav-Event-2-Page {
+    text-decoration: none;
+}
+
+.nav-Restaurant {
+    text-decoration: none;
+}
+
+.nav-Hotel-Booking-and-adventure-booking {
+    text-decoration: none;
+}
+
+.Event-2-Page-body {
+    text-align: center;
+}
+
+/*Header ends here*/
+
+/*Organising-Parties section starts here*/
+
+.Organising-Parties {
+    font-family:cursive;
+}
+
+.Organising-Parties-Heading {
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    animation-name: x;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+}
+
+@keyframes x{
+    from{color: blue; margin-left: 50%;}
+    to{color: black; margin-left: 0%;}
+}
+
+.Organisation-Parties-Image {
+    width: 80%;
+    height: 80%;
+    border-style:solid;
+    border: 1px;
+    border-color: black;
+}
+
+/*Organising-Parties section ends here*/
+
+/*Gallery section starts here*/
+
+.Gallery {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Images {
+    width: 19.736842%;
+    height: 20%;
+    border: 1px;
+}
+
+/*Gallery section ends here*/
+
+/* Footer Page Starts here*/
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #5b0e2d;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer1 > section {
+    flex: 1;
+}
+
+@media (max-width: 500px) {
+    .footer1 {
+        flex-direction: column;
+    }
+}
+
+.footer-logo {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.footer-contact-information {
+    width: 100%;
+    height: 100%;
+    text-size-adjust: 80%;
+}
+
+.footer-Quick-Links {
+    width: 100%;
+    height: 100%;
+    text-size-adjust: 80%;
+}
+
+.footer-email {
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+}
+
+.footer-go-to-top {
+    text-decoration: none;
+    font-size: 100%;
+    margin-left: 16.447368%;
+}
+
+.footer-map {
+    width: 90%;
+    height: 13.333333%;
+}
+
+/* Footer Page Ends here*/
